@@ -2,7 +2,7 @@
 import ldclient
 
 if __name__ == "__main__":
-  ldclient.sdk_key = "YOUR_SDK_KEY"
+  ldclient.set_config(Config("sdk-500579db-59ab-45a8-b120-27d37b5d639c"))
 
   user = {
     "key": "bob@example.com",
